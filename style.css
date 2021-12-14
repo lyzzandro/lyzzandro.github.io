@@ -1,1 +1,68 @@
+*{
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    border:0
+}
 
+/* Estilos texto*/
+
+h1, h2, h3, h4, p, a, li{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: rgb(207, 207, 207);
+    text-decoration: none;
+}
+
+p{  
+    line-height: 1.4em;
+    font-size: 1.2em;
+}
+
+body{
+    background: #292424;
+}
+
+#container{
+
+}
+
+
+
+#informacoes{
+    background: #030101;
+    /*border: 1px solid red;*/
+    width: 30vw;
+    height: 100vh;
+    float: left;
+}
+
+#informacoes #dados{
+    padding: 4em 2em 0 2em;
+}
+
+#informacoes h2{
+    font-size: 2em;
+}
+
+#conteudo{
+    background: #292424;
+    /*border: 1px solid red;*/
+    width: 68vw;
+    height: 100vh;
+    float: left;
+}
+
+/*Contato*/
+#contato{
+    padding: 0 0 0.6em 0;
+}
+
+/* Certificados*/
+
+#certificacoes{
+    padding: 2em 0 0 0;
+}
+
+#lista-certificados{
+    padding: 1em 0 0 1.4em;
+}
