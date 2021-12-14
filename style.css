@@ -66,3 +66,46 @@ body{
 #lista-certificados{
     padding: 1em 0 0 1.4em;
 }
+
+/* Conteudo */
+#nome{
+    font-size: 3em;
+    padding: 1em 0 0 2em;
+}
+
+#conteudo h2{
+    font-size: 2em;
+    padding: 2em 0 0 3em;
+}
+
+#descricao-resumo{
+    font-size: 1.2em;
+    padding: 1em 0 0 5em;
+}
+
+/*experiência*/
+
+#experiencia{
+   margin: 0 0 1em 0;
+}
+
+#empresa{
+    font-size: 1.5em;
+    padding: 0 0 0 4em;
+}
+
+#cargo{
+    padding: 0 0 0 5em;
+}
+
+#tempo{
+    padding: 0 0 0 5em;
+}
+
+#local{
+    padding: 0 0 0 5em;
+}
+
+#descricao{
+    padding: 0 0 0 5em;
+}
