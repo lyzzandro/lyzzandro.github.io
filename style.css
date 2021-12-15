@@ -21,15 +21,12 @@ p{
     font-size: 1.2em;
 }
 
-
-
 #container{
     display: flex;
 }
 
-
 #informacoes{
-    background: #030101;
+    background: #0D0D0D;
     /*border: 1px solid red;*/
     width: 30vw;
 }
@@ -43,7 +40,7 @@ p{
 }
 
 #conteudo{
-    background: #292424;
+    background: #262626;
     width: 70vw;
     padding: 0 4em 0 0;
 }
