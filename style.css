@@ -145,35 +145,29 @@ p{
 
 @media screen and (max-width: 900px) {
     .container {
-        display: inline;
+        display: inline-block;
     }
+
+    /*font-size*/
 
     h1{
         margin: 0;
     }
 
-    #informacoes{
-        width: 100vw;
-        margin: 0;
-        padding: 0;
-    }
-    
-    #informacoes #dados{
-        background: #0D0D0D;
-        width: 100vw;
-        margin: 0 0 0 0;
-        
-    }
-    
     #informacoes h2{
         font-size: 2em;
     }
 
+    #informacoes{
+        width: 100vw;
+        margin: 0;
+        padding: 0 2em 0 0;
+    }
     
     #conteudo{
         background: #262626;
         width: 100vw;
-        padding: 0 4em 0 0;
+        padding: 0 2em 0 0;
         
     }
 
