@@ -154,6 +154,27 @@ p{
         margin: 0;
     }
 
+    #lyzzandro{
+        margin: 0 auto 1em auto;
+    }
+
+    #conteudo h2{
+        font-size: 2em;
+        padding: 1em 0 0 0.7em;
+    }
+
+    #icons{
+        display: flex;
+        justify-content: center;
+    }
+
+    #nome{
+        font-size: 2.5em ;
+        margin: 0;
+        padding: 1em 0.5em 0 0.5em;
+    }
+
+
     #informacoes h2{
         font-size: 2em;
     }
@@ -161,14 +182,56 @@ p{
     #informacoes{
         width: 100vw;
         margin: 0;
-        padding: 0 2em 0 0;
+        padding: 0 0 0 0;
+    }
+
+    #informacoes #dados{
+        padding: 1em 1em 0 1em;
+    }
+
+    #lista-certificados{
+        padding: 1em 0 1em 1.4em;
     }
     
     #conteudo{
         background: #262626;
         width: 100vw;
-        padding: 0 2em 0 0;
-        
+        padding: 0 0 0 0;
+    }
+
+    #descricao-resumo{
+        font-size: 1.2em;
+        padding: 1em 0 2em 1.2em;
+    }
+
+    /*experiência*/
+
+    #experiencia{
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+    
+    #empresa, #tempo, #local{
+        padding: 0 0 0 1.2em;
+    }
+    
+    #cargo{
+        font-weight: 700;
+        font-size: 1.5em;
+        padding: 0 0 0 1em;
+    }
+    
+    #empresa{
+        font-weight: 600;
+    }
+    
+    #local{
+        color: #8d8989;
+    }
+    
+    .tarefas{
+        margin-top: 1em;
+        padding: 0 1.5em 0 2em;
     }
 
     .empregos{
