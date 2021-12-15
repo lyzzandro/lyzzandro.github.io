@@ -21,7 +21,7 @@ p{
     font-size: 1.2em;
 }
 
-#container{
+.container{
     display: flex;
 }
 
@@ -141,4 +141,46 @@ p{
     margin-bottom: 3em;
     padding-bottom: 2em;
     border-bottom: 1px solid #3f3939;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        display: inline;
+    }
+
+    h1{
+        margin: 0;
+    }
+
+    #informacoes{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #informacoes #dados{
+        background: #0D0D0D;
+        width: 100vw;
+        margin: 0 0 0 0;
+        
+    }
+    
+    #informacoes h2{
+        font-size: 2em;
+    }
+
+    
+    #conteudo{
+        background: #262626;
+        width: 100vw;
+        padding: 0 4em 0 0;
+        
+    }
+
+    .empregos{
+        
+        margin-bottom: 0;
+        padding-bottom: 2em;
+        border-bottom: 1px solid #3f3939;
+  } 
 }
