@@ -8,7 +8,7 @@
 /* Estilos texto*/
 
 h1, h2, h3, h4, p, a, li{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(207, 207, 207);
     text-decoration: none;
 }
