@@ -1,7 +1,6 @@
 *{
     padding:0;
     margin:0;
-    vertical-align:baseline;
     border:0
 }
 
@@ -13,27 +12,26 @@ h1, h2, h3, h4, p, a, li{
     text-decoration: none;
 }
 
+h1{
+    margin: 1.5em 0 0 0;
+}
+
 p{  
     line-height: 1.4em;
     font-size: 1.2em;
 }
 
-body{
-    background: #292424;
-}
+
 
 #container{
-
+    display: flex;
 }
-
 
 
 #informacoes{
     background: #030101;
     /*border: 1px solid red;*/
     width: 30vw;
-    height: 100vh;
-    float: left;
 }
 
 #informacoes #dados{
@@ -46,25 +44,55 @@ body{
 
 #conteudo{
     background: #292424;
-    /*border: 1px solid red;*/
-    width: 68vw;
-    height: 100vh;
-    float: left;
+    width: 70vw;
+    padding: 0 4em 0 0;
+}
+
+/*imagem*/
+#lyzzandro{
+    display: block;
+    margin: 0 auto 3em auto;
+    width: 200px;
+    border-radius: 100px;
 }
 
 /*Contato*/
+
 #contato{
     padding: 0 0 0.6em 0;
+}
+
+#icons{
+    border-top: 1px solid #241e1e ;
+    border-bottom: 1px solid #241e1e ;
+    padding: 1em 0 1em 0;
+    margin-top: 1em;
+}
+
+.icon{
+    margin: 0 0 0 1em;
+}
+
+.cor-svg{
+    filter: invert(67%) sepia(0%) saturate(1039%) hue-rotate(331deg) brightness(123%) contrast(97%);
+}
+
+.cor-svg:hover{
+    filter: invert(67%) sepia(0%) saturate(1039%) hue-rotate(331deg) brightness(100%) contrast(97%);
 }
 
 /* Certificados*/
 
 #certificacoes{
-    padding: 2em 0 0 0;
+    padding: 1em 0 0 0;
 }
 
 #lista-certificados{
     padding: 1em 0 0 1.4em;
+}
+
+#lista-certificados p:hover{
+    color: rgb(172, 172, 172);
 }
 
 /* Conteudo */
@@ -89,23 +117,31 @@ body{
    margin: 0 0 1em 0;
 }
 
-#empresa{
+#empresa, #tempo, #local{
+    padding: 0 0 0 5em;
+}
+
+#cargo{
+    font-weight: 700;
     font-size: 1.5em;
     padding: 0 0 0 4em;
 }
 
-#cargo{
-    padding: 0 0 0 5em;
-}
-
-#tempo{
-    padding: 0 0 0 5em;
+#empresa{
+    font-weight: 600;
 }
 
 #local{
-    padding: 0 0 0 5em;
+    color: #8d8989;
 }
 
-#descricao{
-    padding: 0 0 0 5em;
+.tarefas{
+    margin-top: 1em;
+    padding: 0 0 0 6em;
+}
+
+.empregos{
+    margin-bottom: 3em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #3f3939;
 }
