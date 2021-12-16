@@ -4,8 +4,22 @@
     border:0
 }
 
-/* Estilos texto*/
+/* Estilizando scrollbar*/
+body::-webkit-scrollbar {
+    width: 12px; 
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #3f3939; 
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #0D0D0D;
+    border-radius: 20px; 
+    border: 3px solid #3f3939; 
+  }
 
+/* Estilos texto*/
 h1, h2, h3, h4, p, a, li{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(207, 207, 207);
@@ -42,7 +56,7 @@ p{
 #conteudo{
     background: #262626;
     width: 70vw;
-    padding: 0 4em 0 0;
+    padding: 0 4em 0 4em;
 }
 
 /*imagem*/
@@ -64,10 +78,14 @@ p{
     border-bottom: 1px solid #241e1e ;
     padding: 1em 0 1em 0;
     margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
 }
 
 .icon{
-    margin: 0 0 0 1em;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .cor-svg{
@@ -95,33 +113,28 @@ p{
 /* Conteudo */
 #nome{
     font-size: 3em;
-    padding: 1em 0 0 2em;
+    padding: 1em 0 0 0;
 }
 
 #conteudo h2{
     font-size: 2em;
-    padding: 2em 0 0 3em;
+    padding: 2em 0 0 0;
 }
 
 #descricao-resumo{
     font-size: 1.2em;
-    padding: 1em 0 0 5em;
+    padding: 1em 0 0 0;
 }
 
 /*experiência*/
 
 #experiencia{
-   margin: 0 0 1em 0;
-}
-
-#empresa, #tempo, #local{
-    padding: 0 0 0 5em;
+   margin: 0 0 0.6em 0;
 }
 
 #cargo{
     font-weight: 700;
     font-size: 1.5em;
-    padding: 0 0 0 4em;
 }
 
 #empresa{
@@ -134,7 +147,6 @@ p{
 
 .tarefas{
     margin-top: 1em;
-    padding: 0 0 0 6em;
 }
 
 .empregos{
@@ -160,7 +172,7 @@ p{
 
     #conteudo h2{
         font-size: 2em;
-        padding: 1em 0 0 0.7em;
+        padding: 1em 0 0 0;
     }
 
     #icons{
@@ -171,7 +183,7 @@ p{
     #nome{
         font-size: 2.5em ;
         margin: 0;
-        padding: 1em 0.5em 0 0.5em;
+        padding: 0;
     }
 
 
@@ -186,6 +198,8 @@ p{
     }
 
     #informacoes #dados{
+        background: #0D0D0D;
+        width: 100vw;
         padding: 1em 1em 0 1em;
     }
 
@@ -196,29 +210,19 @@ p{
     #conteudo{
         background: #262626;
         width: 100vw;
-        padding: 0 0 0 0;
-    }
-
-    #descricao-resumo{
-        font-size: 1.2em;
-        padding: 1em 0 2em 1.2em;
+        padding: 1em 1em 0 1em;
     }
 
     /*experiência*/
-
     #experiencia{
         padding: 0 0 0 0;
         margin: 0 0 0 0;
     }
     
-    #empresa, #tempo, #local{
-        padding: 0 0 0 1.2em;
-    }
-    
     #cargo{
         font-weight: 700;
         font-size: 1.5em;
-        padding: 0 0 0 1em;
+        padding: 1em 0 0 0;
     }
     
     #empresa{
@@ -231,7 +235,7 @@ p{
     
     .tarefas{
         margin-top: 1em;
-        padding: 0 1.5em 0 2em;
+        padding: 0 00 0;
     }
 
     .empregos{
@@ -239,5 +243,5 @@ p{
         margin-bottom: 0;
         padding-bottom: 2em;
         border-bottom: 1px solid #3f3939;
-  } 
+    } 
 }
